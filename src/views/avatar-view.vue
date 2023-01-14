@@ -2,7 +2,9 @@
   <div class="main-bg">
     <v-container>
       <titleBar class="mb"></titleBar>
-      <contentExample class="mb"></contentExample>
+      <avatarComponent class="mb"></avatarComponent>
+      <avatarInitial class="mb"></avatarInitial>
+
       <v-row>
         <v-col cols="cols">
           <footerComponentVue></footerComponentVue>
@@ -14,12 +16,14 @@
 
 <script>
 import titleBar from "@/components/titlebar/titlebar-component.vue";
-import contentExample from "@/components/default-layout/content-example-component.vue";
+import avatarComponent from "@/components/avatar/avatar-component.vue";
+import avatarInitial from "@/components/avatar/avatar-initial-component.vue";
 import footerComponentVue from "@/components/footer/footer-component.vue";
 export default {
   components: {
     titleBar,
-    contentExample,
+    avatarComponent,
+    avatarInitial,
     footerComponentVue,
   },
 };
